@@ -416,133 +416,101 @@ span{
 }
 
 /* BREAKPOINTS */
-@media (max-width:1200px){
-    html{
+@media (max-width: 1200px) {
+    html {
         font-size: 55%;
     }
 }
-
-@media (max-width: 991px){
-    .header{
+@media (max-width: 991px) {
+    .header {
         padding: 2rem 3%;
     }
-    
-    section{
+    section {
         padding: 10rem 3% 2rem;
     }
 
-    .services{
+    .services {
         padding-bottom: 7rem;
     }
-
-    .portfolio{
+    .portfolio {
         padding-bottom: 7rem;
     }
-
-    .contact{
+    .contact {
         min-height: auto;
     }
-
-    .footer{
+    .footer {
         padding: 2rem 3%;
     }
 }
-
-@media (max-width: 600px){
-    #menu-icon{
+@media (max-width: 767px) {
+    #menu-icon {
         display: block;
     }
-
-    .navbar{
+    .navbar {
         position: absolute;
-        top:100% ;
+        top: 100%;
         left: 0;
         width: 100%;
-        background:var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        background: var(--bg-color);
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
         display: none;
     }
-
-    .navbar.active{
+    .navbar.active {
         display: block;
     }
-
-    .navbar a{
+    .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
     }
-
-    .home{
+    .home {
         flex-direction: column;
     }
-
-    .home-content h3{
+    .home-content h3 {
         font-size: 2.6rem;
     }
-
-    .home-content h1{
+    .home-content h1 {
         font-size: 5rem;
     }
 
-    .home-img img{
+    .home-img img {
         width: 70vw;
         margin-top: 4rem;
     }
-
-    .about{
+    .about {
         flex-direction: column-reverse;
     }
-
-    .about img{
+    .about img {
         width: 70vw;
         margin-top: 4rem;
     }
-
-    .services h2{
+    .services h2,
+    .portfolio h2 {
         margin-bottom: 3rem;
     }
-
-    .portfolio h2{
-        margin-bottom: 3rem;
-    }
-
-    .portfolio-container{
-        grid-template-columns: repeat(2,1fr);
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width:617px){
-    .portfolio-container{
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width:450px){
-    html{
+@media (max-width: 480px) {
+    html {
         font-size: 50%;
     }
-
-    .contact form .input-box input{
+    .contact form .input-box input {
         width: 100%;
     }
 }
-
-@media (max-width: 365px){
-    .home-img img{
+@media (max-width: 365px) {
+    .home-img img,
+    .about-img img {
         width: 90vw;
     }
-
-    .about-img img{
-         width: 90vw;
-    }
-
-    .footer{
+    .footer {
         flex-direction: column-reverse;
     }
-
-    .footer p{
+    .footer p {
         text-align: center;
         margin-top: 2rem;
     }
