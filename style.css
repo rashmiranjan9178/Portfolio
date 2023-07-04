@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display'); */
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
@@ -416,81 +415,35 @@ span{
 }
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
-    html {
+@media (max-width:1200px){
+    html{
         font-size: 55%;
     }
 }
-@media (max-width: 991px) {
-    .header {
+
+@media (max-width: 991px){
+    .header{
         padding: 2rem 3%;
     }
-    section {
-        padding: 10rem 3% 2rem;
+    
+    section{
+        padding: 10rem 3% rem;
     }
 
-    .services {
+    .services{
         padding-bottom: 7rem;
     }
-    .portfolio {
+
+    .portfolio{
         padding-bottom: 7rem;
     }
-    .contact {
+
+    .contact{
         min-height: auto;
     }
-    .footer {
-        padding: 2rem 3%;
-    }
-}
-@media (max-width: 767px) {
-    #menu-icon {
-        display: block;
-    }
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: var(--bg-color);
-        border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-        display: none;
-    }
-    .navbar.active {
-        display: block;
-    }
-    .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-    .home {
-        flex-direction: column;
-    }
-    .home-content h3 {
-        font-size: 2.6rem;
-    }
-    .home-content h1 {
-        font-size: 5rem;
-    }
 
-    .home-img img {
-        width: 70vw;
-        margin-top: 4rem;
-    }
-    .about {
-        flex-direction: column-reverse;
-    }
-    .about img {
-        width: 70vw;
-        margin-top: 4rem;
-    }
-    .services h2,
-    .portfolio h2 {
-        margin-bottom: 3rem;
-    }
-    .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
+    .footer{
+        padding: 2rem 3%;
     }
 }
 
@@ -564,15 +517,36 @@ span{
   }
 }
 
-@media (max-width: 365px) {
-    .home-img img,
-    .about-img img {
+@media (max-width:617px){
+    .portfolio-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px){
+    .home-img img{
         width: 90vw;
     }
-    .footer {
+
+    .about-img img{
+         width: 90vw;
+    }
+
+    .footer{
         flex-direction: column-reverse;
     }
-    .footer p {
+
+    .footer p{
         text-align: center;
         margin-top: 2rem;
     }
