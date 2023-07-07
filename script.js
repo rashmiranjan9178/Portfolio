@@ -1,3 +1,14 @@
+var typed = new Typed('#hero', {
+    strings: ['Welcome to my Portfolio', 'Have a good day','Hope you are doing well','Have a good Look',"RASMI'S PORTFOLIO"],
+    typeSpeed: 100,
+});
+
+var typed = new Typed('#element', {
+    strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editior'],
+    typeSpeed: 50,
+});
+
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
