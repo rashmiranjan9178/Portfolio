@@ -56,10 +56,11 @@ header{
 
 .logo{
     font-size: 2.5rem;
-    color: var(--text-color);
+    color: var(--main-color);
     font-weight: 600;
     cursor: default;
     text-decoration: none;
+    font-family: 'Metal Mania', cursive;
 }
 
 .navbar a{
@@ -422,7 +423,7 @@ span{
     }
 }
 
-@media (max-width: 991px){
+@media only screen and (max-width: 600px){
     .header{
         padding: 2rem 3%;
     }
