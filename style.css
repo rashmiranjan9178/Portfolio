@@ -426,6 +426,7 @@ span{
 @media only screen and (max-width: 600px){
     .header{
         padding: 2.2rem 3%;
+         display:inline-block;
     }
     
     section{
