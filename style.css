@@ -417,15 +417,15 @@ span{
 }
 
 /* BREAKPOINTS */
-@media (max-width:1200px){
+@media (max-width:600px){
     html{
-        font-size: 55%;
+        font-size: 50%;
     }
 }
 
 @media only screen and (max-width: 600px){
     .header{
-        padding: 2rem 3%;
+        padding: 2.2rem 3%;
     }
     
     section{
